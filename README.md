@@ -82,8 +82,8 @@
 | haystack/components/extractors/\_\_init\_\_.py                                      |        5 |        0 |    100% |           |
 | haystack/components/extractors/image/\_\_init\_\_.py                                |        5 |        0 |    100% |           |
 | haystack/components/extractors/image/llm\_document\_content\_extractor.py           |      105 |        0 |    100% |           |
-| haystack/components/extractors/llm\_metadata\_extractor.py                          |      153 |       31 |     80% |287-298, 305-316, 331-343, 380, 422-426, 437 |
-| haystack/components/extractors/named\_entity\_extractor.py                          |      182 |       59 |     68% |24, 39, 158-161, 170-177, 196, 202, 261, 274, 377-389, 392-397, 412, 440-448, 452-464, 467-474, 484, 488, 501-508 |
+| haystack/components/extractors/llm\_metadata\_extractor.py                          |      155 |       21 |     86% |287-298, 307-315, 333-336, 380, 422-426, 437 |
+| haystack/components/extractors/named\_entity\_extractor.py                          |      183 |       60 |     67% |24-25, 40, 159-162, 171-178, 197, 203, 262, 275, 378-390, 393-398, 413, 441-449, 453-465, 468-475, 485, 489, 496-503 |
 | haystack/components/extractors/regex\_text\_extractor.py                            |       49 |        0 |    100% |           |
 | haystack/components/fetchers/\_\_init\_\_.py                                        |        5 |        0 |    100% |           |
 | haystack/components/fetchers/link\_content.py                                       |      188 |       26 |     86% |160-165, 222-224, 246, 255-262, 292-296, 385-392, 425, 458 |
@@ -95,8 +95,8 @@
 | haystack/components/generators/chat/fallback.py                                     |       86 |        4 |     95% |92, 240-245 |
 | haystack/components/generators/chat/hugging\_face\_api.py                           |      229 |        7 |     97% |189, 420-421, 487, 579, 632, 703 |
 | haystack/components/generators/chat/hugging\_face\_local.py                         |      208 |       27 |     87% |70-72, 75, 83-85, 235, 278-280, 340, 370, 426, 455-460, 487, 538-541, 576-582, 598, 654-655 |
-| haystack/components/generators/chat/llm.py                                          |       30 |        2 |     93% |  117, 185 |
-| haystack/components/generators/chat/openai.py                                       |      196 |        4 |     98% |421, 471, 609, 709 |
+| haystack/components/generators/chat/llm.py                                          |       33 |        1 |     97% |       120 |
+| haystack/components/generators/chat/openai.py                                       |      212 |        4 |     98% |421, 471, 642, 742 |
 | haystack/components/generators/chat/openai\_responses.py                            |      316 |       39 |     88% |237, 268, 356, 434, 449, 486, 493-500, 508, 549-558, 574-575, 580, 593-609, 618, 748, 790-791, 804, 847, 869, 888 |
 | haystack/components/generators/chat/types/\_\_init\_\_.py                           |        2 |        0 |    100% |           |
 | haystack/components/generators/chat/types/protocol.py                               |        4 |        0 |    100% |           |
@@ -135,7 +135,7 @@
 | haystack/components/rankers/sentence\_transformers\_similarity.py                   |       79 |        2 |     97% |  147, 250 |
 | haystack/components/rankers/transformers\_similarity.py                             |      109 |       10 |     91% |143, 148, 154, 175, 261, 272, 275, 296, 308-309 |
 | haystack/components/readers/\_\_init\_\_.py                                         |        5 |        0 |    100% |           |
-| haystack/components/readers/extractive.py                                           |      229 |       10 |     96% |133, 195, 220-225, 326, 410, 467, 580, 625-626 |
+| haystack/components/readers/extractive.py                                           |      229 |        9 |     96% |133, 195, 220-225, 410, 467, 580, 625-626 |
 | haystack/components/retrievers/\_\_init\_\_.py                                      |        5 |        0 |    100% |           |
 | haystack/components/retrievers/auto\_merging\_retriever.py                          |       80 |        0 |    100% |           |
 | haystack/components/retrievers/filter\_retriever.py                                 |       22 |        1 |     95% |        55 |
@@ -265,7 +265,7 @@
 | haystack/utils/type\_serialization.py                                               |      111 |       12 |     89% |62, 64, 174-175, 186-189, 195, 211-214 |
 | haystack/utils/url\_validation.py                                                   |        4 |        0 |    100% |           |
 | haystack/version.py                                                                 |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                           | **17238** | **1229** | **93%** |           |
+| **TOTAL**                                                                           | **17260** | **1218** | **93%** |           |
 
 
 ## Setup coverage badge
